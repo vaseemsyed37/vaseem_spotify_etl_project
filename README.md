@@ -8,10 +8,6 @@
 ## Project Overview
 The **Vaseem Spotify ETL Project** extracts music data from the Spotify API, transforms the data, and loads it into an AWS-based infrastructure. The project uses Python along with various AWS services like Lambda, S3, and Glue to automate the ETL (Extract, Transform, Load) pipeline. It demonstrates how to automate the extraction of data, process it, and store it for analysis or further processing.
 
-## Architecture
-![Architecture Diagram](screenshots/architecture_diagram.png)  
-The architecture diagram below shows the flow of data:
-
 1. **Extract**: Data is fetched from the Spotify API using Python and the Spotipy library.
 2. **Transform**: The data is processed, cleaned, and transformed for further analysis.
 3. **Load**: The transformed data is stored in AWS S3 and cataloged in AWS Glue for further analytics or processing.
